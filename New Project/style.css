@@ -1,0 +1,236 @@
+/* ===================================
+   CREATIVE STYLE BY TANVIR AHMED
+====================================*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar {
+  width: 2000px;
+  height: 75;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: orange;
+  font-size: 36px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.manu {
+  width: 300px;
+  float: right;
+  height: 70px;
+}
+
+ul {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 120px;
+  margin-top: 27px;
+  font-size: 16px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4 ease-in-out;
+}
+
+ul li a:hover {
+  color: orange;
+}
+/* --------------------------------
+           Search Bar
+---------------------------------*/
+.search {
+  width: 500px;
+  float: right;
+  margin-right: 620px;
+}
+
+.srch {
+  font-family: "Times New Roman";
+  width: 220px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid orange;
+  margin-top: 15px;
+  border-right: none;
+  font-size: 18px;
+  color: white;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.bton {
+  width: 100px;
+  height: 40px;
+  background: orange;
+  border: 2px solid orange;
+  margin-top: 15px;
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium";
+  font-size: 15px;
+  font-weight: bold;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.bton:focus {
+  outline: none;
+}
+
+.srch:focus {
+  outline: none;
+}
+/* --------------------------------
+            Copyright
+---------------------------------*/
+.copy {
+  margin-left: 800px;
+  float: left;
+  color: blue;
+  margin-bottom: 15px;
+}
+
+/* --------------------------------
+             Contact
+----------------------------------*/
+.icontact {
+  font-size: 22px;
+}
+.contact .title::after {
+  content: "get in touch";
+}
+.contact .contact-content .column {
+  width: calc(50% - 30px);
+}
+.contact .contact-content .text {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.contact .contact-content .left p {
+  text-align: justify;
+}
+.contact .contact-content .left .icons {
+  margin: 10px 0;
+}
+/* ROW */
+.contact .contact-content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row .info {
+  margin-left: 30px;
+}
+.contact .contact-content .row i {
+  font-size: 25px;
+  color: crimson;
+}
+/* ROW END */
+.contact .contact-content .info .head {
+  font-weight: 500;
+}
+.contact .contact-content .info .sub-title {
+  color: #333;
+}
+.contact .right form .fields {
+  display: flex;
+}
+.contact .right form .field,
+.contact .right form .fields .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .textarea {
+  height: 80px;
+  width: 100%;
+}
+.contact .right form .name {
+  margin-right: 5px;
+}
+.contact .right form .email {
+  margin-left: 15px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.3s ease;
+}
+.contact .right form .field input:focus,
+.contact .right form .textarea textarea:focus {
+  border-color: #b3b3b3;
+}
+.contact .right form .textarea textarea {
+  padding-top: 10px;
+  resize: none;
+}
+.contact .right form .button {
+  height: 47px;
+  width: 170px;
+  margin-bottom: 4px;
+  text-align: center;
+  margin-left: 385px;
+}
+.contact .right form .button button {
+  width: 100%;
+  height: 100%;
+  border: 2px solid crimson;
+  background: crimson;
+  color: #fff;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.contact .right form .button button:hover {
+  color: crimson;
+  background: none;
+}
